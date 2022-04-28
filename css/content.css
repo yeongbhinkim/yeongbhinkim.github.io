@@ -69,13 +69,13 @@ body {
     line-height: 38px;
   }
 
-  .container {
+  /* .container {
     width: 97%;
     height: auto;
     margin: 170px auto 0;
     min-width: 961px;
     max-width: 1100px;
-  }
+  } */
   .shop_info_wrap {
     margin: 0 auto;
     padding-bottom: 20px;
