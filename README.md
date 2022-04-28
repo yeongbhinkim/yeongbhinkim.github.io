@@ -1,1 +1,0 @@
-# yeongbhinkim.github.io
