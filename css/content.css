@@ -2,7 +2,7 @@
 @import url('reset.css');
 @import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
 
-body {
+.global-content {
   font-family: sans-serif, Arial, '맑은 고딕';
 }
 
