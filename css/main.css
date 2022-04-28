@@ -21,7 +21,7 @@
     text-align: center;
     margin-left: 40px;
   }
-  .logo {
+  /* .logo {
     margin-top: 20px;
     width: 100%;
     height: 100%;
@@ -30,7 +30,7 @@
     display: block;
     overflow: hidden;
     text-indent: -20000px;
-  }
+  } */
   .header_util_wrap {
     margin-top: 20px;
     margin-right: 40px;
