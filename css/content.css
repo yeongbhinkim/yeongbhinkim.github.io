@@ -6,7 +6,7 @@ body {
   font-family: sans-serif, Arial, '맑은 고딕';
 }
 
-@media screen and (min-width: 961px) {
+
   .allday-parking-icon {
     width: 35px;
     height: 35px;
@@ -463,10 +463,3 @@ body {
   }
   /* 리뷰 신고 css 끝 */
 
-  /*지도 마커 안내*/
-  .map_info {
-    text-align: center;
-    margin-top: 7px;
-    font-size: 13px;
-  }
-}

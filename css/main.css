@@ -2,7 +2,6 @@
 @import url('reset.css');
 @import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
 
-@media screen and (min-width: 961px) {
   .header_top_wrap {
     position: fixed;
     width: 100%;
@@ -122,7 +121,6 @@
     display: inline-block;
     line-height: 27px;
   }
-}
 
 @media screen and (min-width: 961px) and (max-width: 1199px) {
   .shop-each {
