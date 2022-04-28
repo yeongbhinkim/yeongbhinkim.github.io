@@ -1,0 +1,29 @@
+1. 백엔드
+1.1. 개발 언어
+java : https://img.icons8.com/color/344/java-coffee-cup-logo--v1.png
+
+1.2. IDE
+sts : https://img.icons8.com/color/344/spring-logo.png
+intelij : https://img.icons8.com/color/344/intellij-idea.png
+
+1.3. Template Engine
+thymeleaf : https://img.icons8.com/color/344/thymeleaf.png
+
+1.4. DataBase
+oracle : https://img.icons8.com/color/344/oracle-logo.png
+
+rest api : https://img.icons8.com/color/344/api-settings.png
+
+
+2. 프론트엔드
+2.1. 개발 언어
+html5 : https://img.icons8.com/color/344/html-5--v2.png
+css3 : https://img.icons8.com/color/344/css3.png
+javascript(es6) : https://img.icons8.com/color/344/javascript--v1.png
+
+2.2. 툴
+visual studio code : https://img.icons8.com/color/344/visual-studio-code-2019.png
+
+3. 테스트
+postman : https://img.icons8.com/dusk/344/postman-api.png
+junit5 : https://files.speakerdeck.com/presentations/b229bb1189ef45b2a021b5973e537cd1/slide_0.jpg
