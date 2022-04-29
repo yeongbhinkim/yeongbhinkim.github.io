@@ -2,7 +2,7 @@
 @import url('reset.css');
 @import url(https://fonts.googleapis.com/earlyaccess/jejugothic.css);
 
-.global-home {
+.global-home{
   background: linear-gradient(to bottom, #8cc841, #29aeec 50%);
   width: 100%;
   height: 100vh;
