@@ -4,11 +4,28 @@
 
 <body>
 
-  <ul id="menu">
-    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">{% include home.html %}</a></li>
-    <li data-menuanchor="secondPage"><a href="#secondPage"> {% include main.html %}</a></li>
-    <li data-menuanchor="3rdPage"><a href="#3rdPage">{% include content.html %}</a></li>
-</ul>
+
+  <div id="fullpage">
+
+    <div class="section " id="section0">
+      <div class="intro">
+        {% include home.html %}
+      </div>
+    </div>
+
+    <div class="section" id="section1">
+      <div class="intro">
+        {% include main.html %}
+      </div>
+    </div>
+
+    <div class="section" id="section2">
+      <div class="intro">
+        {% include content.html %}
+      </div>
+    </div>
+
+  </div>
 
   {% include scripts.html %}
 
