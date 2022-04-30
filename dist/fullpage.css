@@ -82,11 +82,11 @@ html.fp-enabled,
 }
 .fp-arrow.fp-prev {
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #fff transparent transparent;
+    border-color: transparent #4F4538 transparent transparent;
 }
 .fp-arrow.fp-next {
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #fff;
+    border-color: transparent transparent transparent #4F4538;
 }
 /* .fp-scrollable {
     overflow: hidden;

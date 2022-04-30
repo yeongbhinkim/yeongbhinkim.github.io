@@ -1,6 +1,6 @@
 'use strict';
 
-const $body = document.querySelector('.util-wrap');
+const $body = document.querySelector('.body');
 $body?.addEventListener('click', click_f, true);
 
 const $detail_icon = document.querySelector('.detail-icon');
@@ -23,6 +23,19 @@ function click_f(evt) {
       });
     }
   }
+
+  if (evt.target.matches('.detail-info')) {
+    if ($detailCHK.checked == false) {
+      $detail_icon.click();
+    }
+  }
+
+  if (evt.target.matches('.detail-Page')) {
+    if ($detailCHK.checked == true) {
+      $detail_icon.click();
+    }
+  }
+
 
   const tabList = document.querySelectorAll('.detailmenu .Area li');
   const contents = document.querySelectorAll('.detailmenu .Areaboxs .cont');

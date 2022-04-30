@@ -12,6 +12,7 @@ thymeleaf : https://img.icons8.com/color/344/thymeleaf.png
 1.4. DataBase
 oracle : https://img.icons8.com/color/344/oracle-logo.png
 
+1.5. server
 rest api : https://img.icons8.com/color/344/api-settings.png
 
 
@@ -24,6 +25,20 @@ javascript(es6) : https://img.icons8.com/color/344/javascript--v1.png
 2.2. 툴
 visual studio code : https://img.icons8.com/color/344/visual-studio-code-2019.png
 
+2.3. 프레임워크
+bootstrap : https://img.icons8.com/color/344/bootstrap.png
+
+2.4. 라이브러리
+font awesome : https://seeklogo.com/images/F/font-awesome-logo-3010FE2434-seeklogo.com.png
+
+
 3. 테스트
 postman : https://img.icons8.com/dusk/344/postman-api.png
 junit5 : https://files.speakerdeck.com/presentations/b229bb1189ef45b2a021b5973e537cd1/slide_0.jpg
+
+4. 기타
+git : https://img.icons8.com/color/344/git.png
+github : https://img.icons8.com/fluency/344/github.png
+
+5. 등등
+pdf : https://img.icons8.com/office/344/pdf.png
