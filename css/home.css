@@ -8,7 +8,6 @@
   height: 100vh;
   font-family: 'Jeju Gothic', sans-serif;
 }
-
 .hdr {
   display: flex;
   justify-content: center;
@@ -24,15 +23,13 @@
 
 .logo-box {
   margin-top: 30%;
-
+  
 }
-
 .logo {
 
   margin-bottom: 20px;
 }
-
-.logo>img {
+.logo > img {
   /* width: 100%;
   height: auto;
   cursor: pointer; */
@@ -44,7 +41,7 @@
 
   max-width: 100%;
   max-height: 100%;
-
+ 
 }
 
 .animated {
@@ -56,13 +53,13 @@
   animation-fill-mode: both;
 }
 
-.head-title {
+.head-title{
   margin-bottom: 20px;
-
+ 
   display: inline-block;
   transition: color ease-in-out 0.3s;
   font-size: 3.5rem;
-  font-family: 'PT Sans', Arial, Helvetica, sans-serif, GowunDodum-Regular;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif,GowunDodum-Regular;
   font-weight: bold;
   color: #fff;
   min-width: 360px;
@@ -71,7 +68,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.textBox {
+.textBox{
   width: 100%;
   height: 100%;
   margin-top: 20px;
@@ -86,7 +83,6 @@
   flex-direction: column;
   letter-spacing: 2px;
 }
-
 .util-box {
   display: flex;
   justify-content: center;
@@ -97,13 +93,11 @@
 .search-box-wrap {
   position: relative;
 }
-
 .detail-box {
   position: absolute;
   left: 25px;
   top: 21px;
 }
-
 .detail-icon {
   width: 13px;
   height: 10px;
@@ -113,13 +107,11 @@
   overflow: hidden;
   text-indent: -20000px;
 }
-
 .search-box {
   position: absolute;
   right: 25px;
   top: 17px;
 }
-
 #searchBtn {
   width: 16px;
   height: 17px;
@@ -133,15 +125,12 @@
   border: none;
   cursor: pointer;
 }
-
 #keyword:focus {
   outline: none;
 }
-
 #hashtags {
   display: inline-flex;
 }
-
 #hashtags li {
   padding: 5px;
 }
@@ -154,7 +143,6 @@
   padding: 0 4rem;
   position: relative;
 }
-
 .condition-reset-wrap {
   position: absolute;
   left: 20px;
@@ -165,7 +153,6 @@
   width: 40px;
   text-align: center;
 }
-
 .align-hashtag {
   display: inline-block;
   border: 2px solid #fff;
@@ -184,7 +171,7 @@
   display: none;
 }
 
-.menu input[type='checkbox']+label {
+.menu input[type='checkbox'] + label {
   padding-left: 25px;
   background-repeat: no-repeat;
 }
@@ -207,7 +194,7 @@
   border-radius: 5px;
 }
 
-.menu input[type='checkbox']:checked~.menuitems {
+.menu input[type='checkbox']:checked ~ .menuitems {
   display: block;
 }
 
@@ -360,7 +347,7 @@ li {
 }
 
 .menu .menuitems .detailChoice .detailmenu .Areaboxs {
-  background: linear-gradient(to bottom, #8cc841, #29aeec 50%);
+  background: linear-gradient(to bottom, #a8ffa0, #a8ffa0 50%);
   display: inline-block;
   width: 90%;
   height: 85%;
@@ -381,29 +368,11 @@ li {
   left: 32px;
   width: 90%;
   height: 100%;
-  background: linear-gradient(to bottom, #8cc841, #29aeec 50%);
+  background: linear-gradient(to bottom, #a8ffa0, #a8ffa0 50%);
   color: black;
   display: inline-flex;
   overflow: hidden;
-  overflow-y: scroll;
-}
 
-.cont::-webkit-scrollbar {
-  width: 5px;
-  height: auto;
-}
-
-.cont::-webkit-scrollbar-thumb {
-  height: 20px;
-  background-clip: content-box;
-  background-color: white;
-  border-radius: 40px;
-}
-
-.cont::-webkit-scrollbar-track {
-  border: 2px solid transparent;
-  background-clip: content-box;
-  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .Areaboxs a {
@@ -418,7 +387,7 @@ li {
 .menu .menuitems .detailChoice .detailmenu li.is_on .btn {
   font-weight: bold;
   color: black;
-  background-color: #8cc841;
+  background-color: #a8ffa0;
 }
 
 .menu .menuitems .detailChoice .detailmenu .btn {
@@ -433,7 +402,11 @@ li {
   font-size: 15px;
   cursor: pointer;
 }
-
 .tag_name {
   cursor: pointer;
+}
+.textBox{
+  padding-top: 10px;
+  margin: 0 auto;
+  line-height: 1.3em;
 }
