@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 {% include head.html %}
 
@@ -9,28 +9,15 @@
 
   <div id="fullpage">
 
-    <div class="section " id="section0">
-      <div class="intro">
-        {% include home.html %}
-      </div>
-    </div>
+    {% include home.html %}
 
-    <div class="section" id="section1">
-      <div class="intro">
-        {% include main.html %}
-      </div>
-    </div>
+    {% include main.html %}
 
-    <div class="section" id="section2">
-     
-        {% include content.html %}
-      
-    </div>
+    {% include content.html %}
 
   </div>
 
   {% include scripts.html %}
-
 
 </body>
 
