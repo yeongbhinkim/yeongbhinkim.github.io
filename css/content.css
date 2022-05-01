@@ -8,6 +8,12 @@
   margin: 0 auto;
 }
 
+.slide h1 {
+  font-size: xx-large;
+  margin-bottom: 25px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 .allday-parking-icon {
   width: 35px;
   height: 35px;
@@ -19,46 +25,6 @@
 .parking-txt {
   text-align: center;
   width: 35%;
-}
-
-.header_top_wrap {
-  position: fixed;
-  width: 100%;
-  height: 80px;
-  box-shadow: 0 7px 10px -3px rgba(132, 155, 156, 0.8);
-  background-color: #fff;
-  z-index: 1000;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  font-family: 'Jeju Gothic', sans-serif;
-}
-.header_logo_home_evt {
-  width: 220px;
-  height: 37px;
-  text-align: center;
-  margin-left: 40px;
-}
-
-.header_util_wrap {
-  margin-top: 20px;
-  margin-right: 40px;
-  display: flex;
-}
-.header_util_evt {
-  width: 100px;
-  height: 37px;
-  margin: 0 10px;
-  text-align: center;
-  border: 1px solid transparent;
-  border-radius: 30px;
-  background-image: linear-gradient(#fff, #fff), linear-gradient(to bottom, #8cc841, #29aeec 50%);
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
-}
-.header_util_evt > a {
-  line-height: 38px;
 }
 
 .shop_info_wrap {
@@ -336,9 +302,14 @@ menu-item-box {
 .containerPhoto img{
   width: 80%;
   height: 80%;
+  border: 25px solid #ecd8be; /* 이미지 테두리 색 */
+
+  
 }
 
 .containerPhoto iframe{
   width: 80%;
   height: 550px;
+  border: 25px solid #ecd8be; /* 이미지 테두리 색 */
+
 }
