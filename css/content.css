@@ -302,14 +302,14 @@ menu-item-box {
 .containerPhoto img{
   width: 80%;
   height: 80%;
-  border: 25px solid #ecd8be; /* 이미지 테두리 색 */
+  border: 25px solid #f9b55c;
 
   
 }
 
 .containerPhoto iframe{
   width: 80%;
-  height: 550px;
-  border: 25px solid #ecd8be; /* 이미지 테두리 색 */
+  height: 600px;
+  border: 25px solid #f9b55c;
 
 }
